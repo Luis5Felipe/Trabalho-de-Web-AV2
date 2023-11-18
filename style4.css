@@ -1,0 +1,219 @@
+:root {
+    --rodape:#91bdd3;
+    --inicio: #3b5d72;
+    --corpo: #7fb3cd;
+    --letras: rgba(255, 255, 255, 0.941);
+    --texto: #9fd4e7 ;
+    --borda: rgba(41, 104, 117, 0.632);
+}
+
+.caixa{
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+.caixa h1{
+    color: var(--letras);
+    font-size: 35px;
+    font-family: 'Lucida Fax';
+    padding: 0px 0px 50px;
+}
+
+.parte{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+/* nome e data*/
+.parte1{
+    background-color: var(--inicio);
+    border-radius: 15px 35px; 
+    padding: 20px;
+    color: var(--letras);
+    font-family: 'Bodoni MT Black';
+    width: 750px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.parte1 h3{
+    padding: 0px px 15px;
+    font-size: 25px;
+}
+.parte01{
+    padding: 25px;
+}
+
+.parte01 input{
+    padding: 10px;
+    border-radius: 19px;
+    border: solid 3px var(--letras);
+}
+
+.genero{
+    border-radius: 19px;
+    background-color: var(--corpo);
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.tipo{
+    padding: 10px;
+}
+
+.tipo select{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 19px;
+    border: solid 3px var(--letras);
+}
+
+/*Endereço*/
+
+
+.endere{
+    background-color: var(--inicio);
+    border-radius: 15px 35px; 
+    padding: 20px;
+    color: var(--letras);
+    font-family: 'Bodoni MT Black';
+    width: 750px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endere input {
+    padding: 10px;
+    border-radius: 19px;
+    border: solid 3px var(--letras);
+}
+
+.endere select{
+    padding: 10px;
+    border-radius: 19px;
+    border: solid 3px var(--letras);
+}
+
+.endere h3{
+    padding: 0px 0px 15px;
+    font-size: 24px;
+}
+
+/*Contato*/
+
+.login1{
+    background-color: var(--inicio);
+    border-radius: 15px 35px; 
+    padding: 20px;
+    color: var(--letras);
+    font-family: 'Bodoni MT Black';
+}
+
+.login1 h3{
+   padding: 20px;
+   font-size: 27px;
+}
+
+
+.login1 input{
+    padding: 10px;
+    border-radius: 19px;
+    border: solid 3px var(--letras);
+}
+
+/*Arquivos*/
+
+.medico{
+    background-color: var(--inicio);
+    border-radius: 15px 35px; 
+    padding: 20px;
+    color: var(--letras);
+    text-align: center;
+    width: 850px;
+}
+
+.medico h3{
+    font-size: 30px;
+    font-family: 'Bodoni MT Black';
+    padding: 15px;
+}
+
+.medico li{
+    font-family: 'Lucida Fax';
+    padding: 2px;
+    font-size: 17px;
+}
+
+.medico ul{
+    border-radius: 25px 3px;
+    background-color: var(--texto);
+    height: 180px;
+    margin-top: 7px;
+}
+
+/*Arquivos*/
+
+input[type="file"]{
+    display: none;
+}
+
+.arquivos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px
+}
+
+
+.arquivos label{
+    border-radius: 15px 25px;
+    background-color: var(--letras);
+    height: 25px;
+    font-size: 15px;
+    font-family:  'Aharoni';
+    transition: 2s;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arquivos label:hover{
+    color: black;
+    border-radius: 15px 25px;
+    height: 25px;
+    background-color: var(--texto);
+}
+
+
+/*enviar*/
+
+.enviar input{
+    margin-top: 20px;
+}
+
+
+.enviar input{
+    border: 1px solid var(--inicio);
+    border-radius: 22px ;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    font-family: 'Aharoni';
+    transition: 2s;
+}
+
+
+.enviar input:hover{
+    color: var(--letras);
+    border-radius: 22px ;
+    background: var(--texto);
+}

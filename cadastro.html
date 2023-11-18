@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="icon" href="icones/pagina-de-login.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--incio-->
+    <header class="corpo">
+        <div id="logo">
+            <h2>Heróis Anônimos</h2>
+            <p>Doe Sangue e Seja um</p>
+        </div>
+        <div class="links">
+            <a href="informacao.html">Saiba Mais</a>
+            <a href="principal.html">Inicio</a>
+            <a href="#contato">Contato</a>
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </header>
+
+
+    <section class="caixa">
+        <form>
+            <h1>Inicie o seu cadastro de doação de sangue e permita que sua generosidade faça a diferença na vida de
+                quem
+                precisa.</h1>
+            <div class="parte">
+                <div class="parte1">
+                    <h3>Nome completo</h3>
+                    <div class="parte01">
+                        <input type="text" placeholder="João Azevedo" required maxlength="25">
+                    </div>
+                    <h3>Data de nascimento</h3>
+                    <div class="parte01">
+                        <input type="date" required>
+                    </div>
+                    <div class="genero">
+                        <h3>Gênero</h3>
+                        <input type="radio" id="Masculino" value="Masculino" name="genero" required>
+                        <label for="Masculino">Masculino</label>
+                        <input type="radio" id="Feminino" value="Feminino" name="genero" required>
+                        <label for="Feminino">Feminino</label>
+                        <input type="radio" id="Outros" value="Outros" name="genero" required>
+                        <label for="Outros">Outros</label>
+                    </div>
+                    <div class="tipo">
+                        <h3>Tipo Sanguíneo</h3>
+                        <select name="tiposSanguineos">
+                            <option>Tipo Sanguíneo</option>
+                            <option value="A+">A positivo</option>
+                            <option value="A-">A negativo</option>
+                            <option value="B+">B positivo</option>
+                            <option value="B-">B negativo</option>
+                            <option value="AB+">AB positivo</option>
+                            <option value="AB-">AB negativo</option>
+                            <option value="O+">O positivo</option>
+                            <option value="O-">O negativo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="endere">
+                    <h3>Estado</h3>
+                    <select name="estados">
+                        <option selected="estado" value="Todos os estados">Selecione o Estado (UF)</option>
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapá">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceará">Ceará</option>
+                        <option value="Distrito Federal">Distrito Federal</option>
+                        <option value="Espírito Santo">Espírito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Paraíba">Paraíba</option>
+                        <option value="Paraná">Paraná</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piauí">Piauí</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                        <option value="Rondônia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantins">Tocantins</option>
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <h3>Município</h3>
+                    <input type="text" placeholder="Rio Bonito" required maxlength="25">
+                    <h3>logradouro</h3>
+                    <input type="text" placeholder="Avenida joão rosa" required maxlength="25">
+                    <h3>Nº</h3>
+                    <input type="number" placeholder="12" required maxlength="25">
+                    <h3>Complemento</h3>
+                    <input type="text" placeholder="Rua do Samu" required maxlength="25">
+                </div>
+                <div class="login1">
+                    <h3>Número de Telefone</h3>
+                    <input type="text" placeholder="(21) 999-8550" required maxlength="10">
+                    <h3>Email</h3>
+                    <input type="email" placeholder="doesangue@gmail.com" required maxlength="25">
+                    <h3>Senha</h3>
+                    <input type="password" placeholder="Máximo 12 carac" required maxlength="12">
+                </div>
+                <div class="medico">
+                    <h3>Histórico Médico</h3>
+                    <ul>
+                        <li>Condições médicas</li>
+                        <li>Histórico de doenças</li>
+                        <li>Histórico de Doações Anteriores</li>
+                        <li>Histórico de doenças</li>
+                        <li>Condições médicas</li>
+                        <li>Comportamento de Risco</li>
+                    </ul>
+                    <div class="arquivos">
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <label for="arquivo">Enviar Arquivos</label>
+                        <input type="file" name="arquivos" id="arquivo" required>
+                        <div class="enviar">
+                            <input type="submit" value="Confirmar Cadastro">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </form>
+    </section>
+
+    <section id="contato" class="rodape">
+        <main class="main">
+            <div class="textorodape">
+                <h3>Sobre nós</h3>
+                <p>Somos uma organização dedicada à doação de sangue, comprometida em salvar vidas há mais de duas
+                    décadas. Nossa missão é promover a solidariedade e garantir o abastecimento contínuo de sangue para
+                    atender às necessidades médicas.</p>
+            </div>
+            <div class="textorodape2">
+                <h3>Telefones</h3>
+                <p>(21)97125-6120</p>
+                <p>(21)97125-9120</p>
+                <p>(21)97125-7180</p>
+            </div>
+            <div class="textorodape3">
+                <h3>Email</h3>
+                <a>campanhadoesangue@gmail.com</a>
+            </div>
+        </main>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+    
+}
+
+:root {
+    --rodape:#91bdd3;
+    --inicio: #3b5d72;
+    --corpo: #7fb3cd;
+    --letras: rgba(255, 255, 255, 0.941);
+    --texto: #9fd4e7 ;
+}
+
+body{
+    background-color: var(--corpo);
+}
+
+
+header {
+    background-color: var(--inicio);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+#logo {
+    color: var(--letras);
+    font-size: 25px;
+    font-family: 'Bodoni MT Black';
+}
+
+#logo p{
+    padding: 5px;
+}
+
+.links a {
+    font-family: 'Century';
+    margin-left: 20px;  
+    font-size: 20px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--letras);
+    transition: 1s;
+}
+
+.links a:hover{
+    border-radius: 10%  350px;
+    background: var(--corpo);
+}
+
+    /*meio do site*/
+
+.solido{
+    display: flex;
+}
+
+
+.texto{
+    border-radius: 30px 10px;
+    background: var(--texto);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 65px;
+    box-shadow: 6px 6px 25px  var(--inicio);
+}
+
+.texto p {
+    color: var(--letras);
+    font-size: 18px;
+    padding: 3px;
+    font-family: 'Lucida Fax';
+}
+
+.saiba a{
+    display: flex;
+    color: var(--letras);
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Century';
+    text-decoration: none;
+    transition: 2s;
+}
+
+.saiba a:hover{
+    border-radius: 30px 10px;
+    box-sizing: border-box;
+    background: var(--inicio);
+    border-width: 10px;
+    transform: scale(1.03);
+}
+
+ /*Imagens*/
+
+.imagem{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 90%;
+    height: 360px;
+}
+
+ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 10px;
+    border: 2px solid;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 25px  var(--inicio);
+   
+ }
+
+ /*Roda pé*/
+
+ 
+ /* video */
+ 
+ .video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 20px;
+    color: var(--letras);
+    font-family: 'Bodoni MT Black';
+ }
+
+.video iframe{
+ border-radius: 50px;
+}
+
+
+ #titulo{
+    border-radius: 10px;
+    background-color: var(--texto);
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 6px 6px 25px var(--inicio);
+    margin: 65px;
+ }
+ 
+ 
+ .rodape{
+   background: var(--inicio);
+   margin-top: 80px;
+ }
+ 
+ .main{
+    padding: 25px;
+    display: flex;
+    color: var(--letras);
+ }
+ 
+ 
+ .textorodape{
+    border-radius: 30px 10px ;
+    background: var(--rodape);
+    border: 1px solid;
+    width: 860px;
+ }
+ 
+ .textorodape h3{
+    padding: 15px;
+ }
+ 
+ .textorodape p{
+    padding: 10px;
+    font-family: 'Lucida Fax';
+ }
+ 
+ .textorodape2{
+    border-radius: 133px 133px 73px 73px ;
+    background: var(--rodape);
+    width: 90px;
+    
+ }
+ .textorodape2 h3{
+    padding: 15px;
+ }
+ 
+ .textorodape2 p{
+    padding: 5px;
+ }
+ 
+ 
+ .textorodape2{
+    font-size: 12px;
+    border: 1px solid;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+ 
+ 
+ 
+ .textorodape3{
+    color: var(--letras);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px 10px ;
+    background: var(--rodape);
+    border: 1px solid;
+ }
